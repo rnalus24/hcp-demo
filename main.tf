@@ -6,10 +6,10 @@ resource "aws_vpc" "main" {
   enable_dns_support   = true
 
   tags = {
-    Name         = "terraform-course"
-    Environment  = "learning-terraform"
-    Managed_By   = "Terraform"
-    New_Resource = "hcp-demo"
+    Name        = "terraform-course"
+    Environment = "learning-terraform"
+    Managed_By  = "Terraform"
+    git-repo    = "hcp-demo"
   }
 }
 
